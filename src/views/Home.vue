@@ -85,12 +85,13 @@
     <!-- <div><RenderString :content="htmlContent" /></div> -->
 
     <GamesList v-if="freeSpinsGames.length > 0" name="freespins" header="<span>Free</span> Spins" :games="freeSpinsGames" />
-    <GamesList name="toppicks" header="Our <span>Top</span> Picks" :games="gameLists[0]" />
-    <GamesList name="newgames" header="<span>New</span> Games" :games="gameLists[1]" />
-    <GamesList name="provablyfair" header="Provably <span>Fair</span>" :games="gameLists[6]" />
-    <GamesList name="livegames" header="<span>Live</span> Games" :games="gameLists[4]" />
+      <GamesList name="livegames" header="<span>Live</span> Games" :games="gameLists[4]" />
     <GamesList name="gameshows" header="Game <span>Shows</span>" :games="gameLists[5]" />
     <GamesList name="tablegames" header="<span>Table</span> Games" :games="gameLists[2]" />
+       <GamesList name="toppicks" header="Our <span>Top</span> Picks" :games="gameLists[0]" />
+    <GamesList name="newgames" header="<span>New</span> Games" :games="gameLists[1]" />
+    <GamesList name="provablyfair" header="Provably <span>Fair</span>" :games="gameLists[6]" />
+   
     <GamesList name="slotgames" header="<span>Slot</span> Games" :games="gameLists[3]" />
     <ProvidersList />
     <BetsTable  v-if="betsTableEnabled" />
