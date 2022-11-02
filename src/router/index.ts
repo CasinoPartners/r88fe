@@ -36,14 +36,14 @@ let routes: Array<RouteRecordRaw> = [
     name: 'Home',
     component: Home,
     meta: {
-      title: 'Shark Casino - Licensed Crypto Casino',
+      title: config.DomainName,
       metaTags: [
         {
           name: 'description',
-          content: 'Shark is a Licensed Crypto Casino Offering Feature Buyin, Secure & Fast Crypto Payments & Withdrawals, Biggest Games, Bonuses & Free Spins, VIP Club.'
+          content: config.DomainName
         }
       ]
-    },
+    }
   },
   {
     path: '/games/:category/:provider?',

@@ -22,7 +22,7 @@
       </template> 
     </Carousel> -->
     
-    <Carousel class="is-hidden-tablet" :items-to-show="1" :wrap-around="true" :autoplay="4000" :snapAlign="start">
+    <!-- <Carousel class="is-hidden-tablet" :items-to-show="1" :wrap-around="true" :autoplay="4000" :snapAlign="start">
       <Slide v-for="slide in slides" :key="slide">
         <a v-if="slide.url == 'transfer'" class="carousel__item" href="mailto:support@sharkcasino.io">
           <img class="is-hidden-mobile" :src="slide.img" />
@@ -42,7 +42,7 @@
         <Navigation />
          <Pagination />
       </template> 
-    </Carousel>
+    </Carousel> -->
     
     <div class="buy-crypto-banner">
       <div class="crypto-icons">
