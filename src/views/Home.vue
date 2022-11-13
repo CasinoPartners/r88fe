@@ -1,12 +1,12 @@
 <template>
   <div id="home-page" class="container is-max-widescreen page" style="padding-top:56px!important;">
-    <!-- <Carousel :items-to-show="3" :wrap-around="true" :autoplay="4000" :snapAlign="center" class="is-hidden-mobile home-page-carousel">
+    <Carousel :items-to-show="3" :wrap-around="true" :autoplay="4000" :snapAlign="center" class="is-hidden-mobile home-page-carousel">
       <Slide v-for="slide in slides" :key="slide">
-      <a v-if="slide.url == 'transfer'" class="carousel__item" href="mailto:support@sharkcasino.io">
+      <a v-if="slide.url == 'transfer'" class="carousel__item" href="mailto:support@royal88lounge.com">
         <img class="is-hidden-mobile" :src="slide.img" />
         <img class="is-hidden-tablet" :src="slide.mobImg" />
       </a>
-      <a v-if="slide.url == 'discord'" class="carousel__item" href="https://t.me/sharkCasinoChat">
+      <a v-if="slide.url == 'discord'" class="carousel__item" href="https://t.me/">
           <img class="is-hidden-mobile" :src="slide.img" />
           <img class="is-hidden-tablet" :src="slide.mobImg" />
         </a>
@@ -20,11 +20,11 @@
         <Navigation />
          <Pagination />
       </template> 
-    </Carousel> -->
+    </Carousel>
     
-    <!-- <Carousel class="is-hidden-tablet" :items-to-show="1" :wrap-around="true" :autoplay="4000" :snapAlign="start">
+    <Carousel class="is-hidden-tablet" :items-to-show="1" :wrap-around="true" :autoplay="4000" :snapAlign="start">
       <Slide v-for="slide in slides" :key="slide">
-        <a v-if="slide.url == 'transfer'" class="carousel__item" href="mailto:support@sharkcasino.io">
+        <a v-if="slide.url == 'transfer'" class="carousel__item" href="mailto:support@royal88lounge.com">
           <img class="is-hidden-mobile" :src="slide.img" />
           <img class="is-hidden-tablet" :src="slide.mobImg" />
         </a>
@@ -42,7 +42,7 @@
         <Navigation />
          <Pagination />
       </template> 
-    </Carousel> -->
+    </Carousel>
     
     <div class="buy-crypto-banner">
       <div class="crypto-icons">
