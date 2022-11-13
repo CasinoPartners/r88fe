@@ -27,51 +27,31 @@ const config = (() => {
       "GATAG": "",
       "ShowCryptoPrices": false,
       "Theme": {
-        "MainColor": "#a37314",
+        "MainColor": "#d8a83b",
         "MainColorGradiant": "#d8a83b",
         "MainBgColor": "#0a212b",
         "SecondBgColor": "#0a2836"
       },
       "HomePageSlides": [
           {
-        "img": "/themes/ydhe73/welcomebanner.png",
-        "mobImg": "/themes/ydhe73/welcomebanner.png",
+        "img": "/themes/ydhe73/cashbackbanner.jpg",
+        "mobImg": "/themes/ydhe73/cashbackbanner.jpg",
         "url": "welcome-bonus"
       },
       {
-        "img": "/themes/ydhe73/vipbanner.png",
-        "mobImg": "/themes/ydhe73/vipbanner.png",
+        "img": "/themes/ydhe73/vipbanner.jpg",
+        "mobImg": "/themes/ydhe73/vipbanner.jpg",
         "url": "vip"
       },
-      {
-        "img": "/themes/ydhe73/buyinbanner.png",
-        "mobImg": "/themes/ydhe73/buyinbanner.png",
-        "url": "/games/feature-buy-in"
-      },
-      {
-        "img": "/themes/ydhe73/reloadbanner.png",
-        "mobImg": "/themes/ydhe73/reloadbanner.png",
-        "url": "reload"
-      },
        {
-        "img": "/themes/ydhe73/live_support_banner.png",
-        "mobImg": "/themes/ydhe73/live_support_banner.png",
+        "img": "/themes/ydhe73/live_support_banner.jpg",
+        "mobImg": "/themes/ydhe73/live_support_banner.jpg",
         "url": "transfer"
       },
       {
-        "img": "/themes/ydhe73/viptransferbanner.png",
-        "mobImg": "/themes/ydhe73/viptransferbanner.png",
-        "url": "transfer"
-      },
-      {
-        "img": "/themes/ydhe73/discordbanner.png",
-        "mobImg": "/themes/ydhe73/discordbanner.png",
+        "img": "/themes/ydhe73/dealer_banner.jpg",
+        "mobImg": "/themes/ydhe73/dealer_banner.jpg",
         "url": "discord"
-      },
-      {
-        "img": "/themes/ydhe73/spinsbanner.png",
-        "mobImg": "/themes/ydhe73/spinsbanner.png",
-        "url": "freespins"
       },
       ],
       "SideMenu": {
@@ -95,9 +75,9 @@ const config = (() => {
               "IsSubMenu": false,
               "IsRoute": true,
               "HasIcon": true,
-              "IconUrl": "/themes/ydhe73/new_games_icon.png",
-              "Text": "New Games",
-              "Title": "New Games",
+              "IconUrl": "/themes/ydhe73/favourite_icon.png",
+              "Text": "Favourite Games",
+              "Title": "Favourite Games",
               "RouteTo": "Games",
               "RouteParams": {category: 'new'},
               "Url": ""

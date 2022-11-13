@@ -2,8 +2,7 @@
   <div>
     <div v-if="isSplash" class="splash-main">
       <section class="splash-container">
-        <!-- <img class="logo" :src="themePath + 'logo2.png'" :alt="domainName" /> -->
-        Royal88Lounge.com
+        <img class="logo" :src="themePath + 'logo2.png'" :alt="domainName" />
       </section>
     </div>
     <div v-if="!isSplash">
@@ -11,9 +10,8 @@
       <div class="navbar-brand">
         <i class="fa fa-bars side-menu-toggle is-hidden-mobile" @click.prevent="toggleMenu"/>
         <router-link to="/" class="navbar-item" style="color: #a37314;">
-          <!-- <img class="logo" :class="loggedIn ? 'is-hidden-mobile' : ''" :src="themePath + 'logo2.png'" :alt="domainName" style="color:#fff;" /> -->
-          <!-- <img v-if="loggedIn" class="mobile-logo" :class="loggedIn ? 'is-hidden-tablet' : ''" :src="themePath + 'favicon.png'" :alt="domainName" /> -->
-          Royal88Lounge.com
+          <img class="logo" :class="loggedIn ? 'is-hidden-mobile' : ''" :src="themePath + 'logo2.png'" :alt="domainName" style="color:#fff;" />
+          <img v-if="loggedIn" class="mobile-logo" :class="loggedIn ? 'is-hidden-tablet' : ''" :src="themePath + 'moblogo.png'" :alt="domainName" />
         </router-link>    
       </div>
 
